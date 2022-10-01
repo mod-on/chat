@@ -7,6 +7,16 @@
 
  </head> 
  <body>
+
+
+<script>
+if (top.location.search=="") {
+pass = prompt('Введите пароль');
+if (pass=='1234') // Ваш пароль акивации
+{ alert('Пароль принят') } else { alert('Пароль непринят!'), top.location.href="errorpas.htm" }
+};
+</script>
+
 <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
 <div>
     <img src="ia.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
